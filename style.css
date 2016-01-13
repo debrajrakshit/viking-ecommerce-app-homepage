@@ -5,14 +5,11 @@ body{
 	background-color: #fff;
 }
 a{
-	color: #666;
+	color: #4387fd;
 	text-decoration: none;
 }
 a:hover{
 	text-decoration: underline;
-}
-div{
-	border: 1px solid #a0a0a0;
 }
 /* Navbar starts */
 .navbar{
@@ -35,6 +32,7 @@ div{
 	vertical-align: middle;
 	line-height: 60px;
 	margin: 0 5px;
+	color: #000;
 }
 .cart-icon{
 	display: inline-block;
@@ -84,7 +82,7 @@ div{
 	background-color: #464646;
 }
 .grey-caption-banner h2{
-	margin-top: 30px;
+	padding-top: 30px;
 	font-size: 24px;
 	color: #fff;
 	font-weight: bold;
@@ -120,6 +118,7 @@ div{
 	margin: 0 10px;
 	padding: 0;
 	vertical-align: top;
+	border: 1px solid #464646;
 }
 .item-heading-wrapper{
 	height: 45px;
@@ -141,7 +140,7 @@ div{
 }
 .item-price{
 	position: absolute;
-	margin-left: 297px;
+	margin-left: 300px;
 	width: 50px;
 	padding: 5px;
 	background-color: #fff;
@@ -170,8 +169,39 @@ div{
 }
 /* Pagination */
 .pagination-wrapper{
-	margin: 10px auto;
+	margin: 10px auto 30px;
 	padding: 10px;
-	width: 100%;
+	width: auto;
 	text-align: center;
+}
+.pagination-wrapper a{
+	margin: 0 5px;
+}
+/* Footer */
+.footer{
+	width: 100%;
+	min-height: 120px;
+	padding: 20px 0;
+	background-color: #464646;
+}
+.footer h3{
+	color: #f99c1c;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.footer-contact-wrapper{
+	width: 210px;
+	margin: 0 auto;
+}
+.contact-item{
+	padding: 10px;
+	color: #fff;
+}
+img.icon-phone, img.icon-email{
+	display: inline-block;
+	width: 24px;
+	height: auto;
+	margin-right: 10px;
+	vertical-align: middle;
 }
